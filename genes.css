@@ -1,0 +1,348 @@
+body {padding:0; margin:0; background-color:#fff; }
+div#container {max-width:70%; min-width:640px; padding:0; margin: 10px auto 10px auto;  background-color:#fff; }
+
+#top h1 {float:left; width:70%; font-family: georgia, serif; font-size: 1.6em; font-weight:normal; letter-spacing:-0.05em; padding:0; margin:0;}
+#top a  {width:15%; padding:10px 20px 10px 20px; margin:0; float:right; text-align:center; font-family: georgia, serif; font-size:0.9em; color:#666; border:1px solid #ccc; text-decoration:none;}
+#top a:hover {padding:10px 20px 10px 20px; margin:0; color:#fff; background-color:#006699; text-decoration:none;}
+
+div#facultyid {padding:30px 0px 30px 0px; margin:0; letter-spacing:-0.05em; line-height:1em;}
+#facultyid h2 {font-family: georgia, serif; font-size: 1.2em; font-weight:normal; color:#666; padding:0px 0px 10px 0px; margin:0;}
+#facultyid p {font-family: georgia, serif; font-size: 0.8em; font-weight:normal; color:#666; padding:0px 0px 10px 0px; margin:0;}
+
+div.bind {clear:both;}
+
+div#menu {
+	font-family:verdana, sans-serif; 
+	font-size:1em; 
+	letter-spacing:-0.05em; 
+	padding: 7px 1px 7px 1px; 
+	margin: 5px 0px 0px 0px; 
+	background-color:#fff; 
+	border:1px solid #ccc;
+}
+#menu ul { text-align:center; padding:0; margin:0; color:#666;}
+#menu li { display:inline; padding:0; margin:0;}
+#menu a {padding:0px 0px 2px 0px; color:#000; text-decoration:none;}
+#menu a:hover {padding:0px 0px 2px 0px; color:#006699;}
+
+div#kleinesmenu {
+	font-family:verdana, sans-serif; 
+	font-size:0.8em; 
+	letter-spacing:-0.05em; 
+	padding: 7px 1px 7px 1px; 
+	margin: 5px 0px 0px 0px; 
+	background-color:#f0f0f0; 
+	border:none;
+}
+#kleinesmenu ul { text-align:center; padding:0; margin:0; color:#666;}
+#kleinesmenu li { display:inline; padding:0; margin:0; }
+#kleinesmenu a {padding:0px 0px 2px 0px; color:#000; text-decoration:none;}
+#kleinesmenu a:hover {padding:0px 0px 2px 0px; color:#006699;}
+
+#loginData {
+	
+	font-family:verdana, sans-serif; 
+	font-size:0.9em; 
+	letter-spacing:-0.05em; 
+	padding: 7px 1px 7px 1px; 
+	margin: 5px auto 0px auto;
+	background-color:#ffffff; 
+/*	border-right:1px solid red;*/
+	width:75%;
+	text-align: right;
+}
+
+#loginData a {padding:0px 0px 2px 0px; color:#000; border:1px dotted black;}
+#loginData a:hover {padding:0px 0px 2px 0px; background-color:#006699; color:#ffffff;}
+
+
+
+div#text {padding:0; margin:30px 0px 0px 0px; line-height:1.1em;}
+#text p {font-family:tahoma, sans-serif; font-size:0.8em; color: #333; padding:5px 0px 5px 0px; margin:0; }
+#text h1 {font-family:arial, sans-serif; font-size:1.6em; font-weight:normal; color: #000; background-color:#fff; padding:0px 0px 3px 0px; margin:0px 0px 5px 0px;  letter-spacing:-0.03em;}
+#text h2 {font-family:verdana, sans-serif; font-size:1em; font-weight:normal; color: #006699; background-color:#fff; border-bottom: 1px dotted #ccc; padding:0px 0px 3px 0px; margin:20px 0px 0px 0px; letter-spacing:-0.05em;}
+#text h3 {font-family:verdana, sans-serif; font-size:0.9em; font-weight:normal; color: #666; background-color:#fff; border-left: 2px solid #0066cc; padding:0px 0px 0px 5px; margin:10px 0px 0px 0px; letter-spacing:-0.05em;}
+#text a {color: #006699;}
+#text a:hover { color: #666;}
+#text ul, text ol {padding:0; margin:5px 0px 5px 20px;}
+#text li {font-family:tahoma, sans-serif; font-size:0.8em; color: #333; padding:0px; margin:5px;} 
+#text img {float:left; border: 5px solid #ccc; padding:0; margin:10px;}
+
+
+table#slidetable {
+	width: 450px;
+	margin: auto;
+	font-family:tahoma, sans-serif; 
+	font-size:0.8em;
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	text-align: center;
+	vertical-align: center;
+
+}
+
+#slidetable tr {
+	border: none;
+}
+
+#slidetable td {
+	border: 1px solid #ddd;
+}
+
+table#primer_receiver {
+	width: 200px;
+	margin: auto;
+	font-family:tahoma, sans-serif; 
+	font-size:0.8em;
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	text-align: center;
+	vertical-align: center;
+
+}
+
+#primer_receiver tr {
+	border: none;
+}
+
+#primer_receiver td {
+	border: 1px solid #ddd;
+}
+
+
+table#primers_small {
+	font-family:tahoma, sans-serif; font-size:0.8em;
+	border-collapse: collapse; 
+	text-align: left;
+}
+
+#primers_small tr {
+	border: none;
+}
+
+#primers_small th {
+	border: none;
+}
+
+#primers_small td {
+	border: none;
+}
+
+td#primer_id {
+	width: 15%;
+}
+
+table#unidata {
+	width: 950px;
+	margin: auto;
+	font-family:tahoma, sans-serif; font-size:0.8em;
+	border-collapse: collapse; 
+	text-align: center;
+	vertical-align: center;
+}
+#unidata tr, td, th {
+	width: 150px;
+	height: 35px;
+	border-bottom: 1px solid black;
+}
+#unidata tr.headerrow th { font-weight:normal; font-style:italic; }
+#unidata th.specialhead { font-weight:normal; font-style:italic; }
+#unidata th.infra { font-weight:normal; background-color: #f6ffe4; }
+#unidata th.supra { font-weight:normal; background-color: #edf9ff; }
+#unidata td.infra { font-weight:normal; background-color: #f6ffe4; }
+#unidata td.supra { font-weight:normal; background-color: #edf9ff; }
+
+div#probe_container {
+	padding-top: 15px;
+	width: 50%;
+	overflow: hidden;
+}
+
+div#probe_info_left {
+	width: 90%;
+	float: left;
+	border: none;
+}
+
+div#probe_info_right {
+	border: none;
+	overflow: hidden;
+	text-align:center;
+}
+
+div#set_up_pairs {
+	width: 100%;
+	overflow: hidden;
+	border-top: 1px solid #002288;
+	border-bottom: 1px dashed #002288;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div#primer_pairs {
+	text-align:center;
+	font-family: tahoma, sans-serif;
+	font-size:0.8em;
+}
+
+div#primer_table_left {
+	width: 28%;
+	float: left;
+	border-right: 1px dotted #ddd;
+}
+
+div#primer_table_right {
+	border-left: 1px dotted #ddd;
+	overflow: hidden;
+	text-align:left;
+	padding-left: 10px;
+}
+
+div#triple_rock {
+	width: 100%;
+	overflow: hidden;
+	border: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+}
+
+div#triple_rock_left {
+	width: 20%;
+	float: left;
+	border-right: 1px dotted #ddd;
+}
+
+div#triple_rock_middle {
+	width: 60%;
+	float: left;
+	border: none;
+	display: inline;
+}
+
+div#triple_rock_right {
+	border-left: 1px dotted #ddd;
+	overflow: hidden;
+	text-align:left;
+	padding-left: 10px;
+}
+
+input[type=text] {
+	border-radius: 4px;
+    border: 2px solid #ccc;
+    background-color: #ffffff;
+    -webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+input[type=text]:hover {
+	border: 2px solid #cceeff;
+	background-color: #cceeff;
+}
+
+input[type=text]:focus {
+	background-color: #cceeff;
+	border: 2px solid #cceeff;;
+}
+
+textarea {
+	width: 65%;
+	height: 75px;
+	padding: 4px 8px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #ffffff;
+	resize: none;
+	margin-bottom:10px;
+	-webkit-transition-duration: 0.6s;
+	transition-duration: 0.6s;
+}
+
+textarea:hover {
+	background-color: #cceeff;
+	border: 2px solid #cceeff;
+}
+
+textarea:focus {
+	background-color: #cceeff;
+	border: 2px solid #cceeff;
+}
+
+.button {
+	background-color: white;
+	border-radius: 4px;
+	background-color: #e0e0e0;
+	border: none;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+.button:hover {
+	background-color: #006699;
+	color: #fff;
+}
+
+
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#seqViewerContainer{
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  font-size: 1em;
+  background-color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+
+.div3 {
+	padding-top: 5px;
+/*	border: 1px solid black;*/
+	border: none;
+	height: 20px;
+/*	width: 66px;*/
+} 
+
+.semihidden {
+	color: #666;
+	font-size: 0.8em;
+}
+
+div#pictures {text-align:center;}
+
+.go_to_top {
+	position:fixed;
+	bottom:10px;
+	right:20px;
+	width:auto;
+	height:40px;
+	border:1px solid #f1f1f1;
+	opacity:0.8;
+/*	background-image: url('icons/goTop.png');
+	background-repeat:no-repeat; */
+}
+
+a.goToTop {
+	height:80px;
+	border:1px solid black;
+}
+
+div#footer {text-align:center; padding:0px 0px 10px 0px; margin:30px auto 0px auto; border-top: 5px solid #ccc; }
+#footer p {font-family:tahoma, sans-serif; font-size:0.7em; color:#666; margin: 10px; line-height:1.2em;}
+#footer a {color:#666;}
+#footer a:hover {color:#999;} 
