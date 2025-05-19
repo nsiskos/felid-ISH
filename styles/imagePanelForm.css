@@ -1,0 +1,33 @@
+div.row {
+	width:70%;
+	margin:auto;
+}
+
+div.imageContainer {
+	width: 100%;
+	border: 1px solid #ccc;
+/*	border-left: 2px dotted #dcdcdc; */
+	overflow: hidden;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+div.imagePlace {
+	width: 200px;
+	float: left;
+	border-right: 1px solid #ccc;
+	text-align:left; 
+	padding:10px 0px 10px 10px; 
+	margin:5px auto 5px auto;
+}
+
+div.formPlace {
+	border: none;
+	width: auto;
+	float: left;
+	margin-left:20px;
+	padding-top:10px; 
+	overflow: hidden;
+	text-align:left; 
+	font-size: 1em;
+}

@@ -1,0 +1,21 @@
+table.massive_table {
+/*	width: 450px; original!!! */
+	width: 700px;
+	margin: auto;
+	font-family:tahoma, sans-serif; 
+	font-size:0.8em;
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	text-align: center;
+	vertical-align: center;
+
+}
+
+
+
+table.massive_table tr {height: 40px; width:40px; border: 1px solid #bbb; }
+
+table.massive_table tr.cutalready {background-color: #f2f2f2;}
+
+table.massive_table th {height: 30px; width:40px; background-color: #8FAFA0; color: #ffffff;}
+table.massive_table td {height: 40px; width:40px; border: 1px solid #bbb; }

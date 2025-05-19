@@ -1,0 +1,110 @@
+div.slideTableInside {
+	border:none;
+	padding-bottom:5px;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+
+div.slideTableInsideHead {
+	border:1px dotted #ddd;
+	padding-bottom:5px;
+/*	margin-left:33%; 
+	width:30%; */
+	margin-bottom:5px;
+	text-align:center;
+	width:100%;
+	overflow:hidden;
+}
+
+div.animalName {
+	width:50%;
+	float:left;
+	border:none;
+	display:block;
+	padding:10px 0px 0px 0px;
+}
+
+div.serialButton {
+	border:none;
+	display:inline-block;
+	width:30%;
+	padding:10px 0px 0px 0px;
+		
+}
+
+/*div.slideTableInsideHead:hover {
+	background-color:#b9c5df;
+	color:#ffffff;
+} */
+
+ h3.slideTableHead {
+	font-size:1.022em;
+	padding:0;
+}
+
+/*
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+*/
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/******************** slidetable attributes ********************/
+table.slidetable {
+/*	width: 450px; original!!! */
+	width: 700px;
+	margin: auto;
+	font-family:tahoma, sans-serif; 
+	font-size:0.8em;
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	text-align: center;
+	vertical-align: center;
+
+}
+
+table.slidetable tr, td, th {
+	width: 40px;
+	height: 40px;
+	border: 1px solid #bbb;
+}
+
+table.slidetable td.fail {font-weight:normal; background-color: #e0e0e0;}
+
+table.slidetable th {
+	text-decoration: none;
+}
+
+.narrowth {
+	width: 20px;
+	font-size:0.8em;
+}
+
+
+div#basket {
+	width:30%;
+	min-width:180px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0px;
+  left: 300px;
+  width: auto;
+  background-color:#ffffff;
+  border: 1px dotted black;
+  opacity: 0.6;
+  
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+

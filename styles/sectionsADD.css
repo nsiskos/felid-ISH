@@ -1,0 +1,166 @@
+div.section_info_container {
+	width: 100%;
+	border-top: 2px dotted #000000;
+	border-left: 1px dotted #dcdcdc;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+div.section_info_left {
+	width: auto;
+	float: left;
+	border: none;
+	text-align:left; 
+	padding:10px 0px 10px 10px; 
+	margin:5px auto 5px auto;
+}
+
+div.section_info_right {
+	border: none;
+	width: 200px;
+	float: right;
+	overflow: hidden;
+	font-size: 1.3em;
+/*	text-align:right; */
+}
+
+
+div.kleinesRED {
+	background-color: #ffe4e1;
+}
+
+div#images {
+	width: 100%;
+}
+
+
+/* Slide Show! */
+table.slideSections {
+  border-collapse: separate;
+  border-spacing: 2px;
+/*  border-top: 1px solid black;*/
+}
+
+table.slideSections td, th {
+  margin: 0;
+/*  border: 1px solid grey;*/
+  border: 0;
+  white-space: nowrap;
+  border-top-width: 0px;
+}
+
+div#images {
+  width: 95%;
+  overflow-x: scroll;
+  margin-left: 5em;
+  overflow-y: visible;
+  padding: 0;
+}
+
+.headcol {
+  position: absolute;
+  width: 5em;
+  left: 0;
+  top: auto;
+  border-top-width: 1px;
+  /*only relevant for first row*/
+  margin-top: -1px;
+  /*compensate for top border*/
+}
+
+.headcol:before {
+  content: 'Row ';
+}
+
+.long {
+  background: #fbfbfb;
+/*  letter-spacing: 1em;*/
+  width: 200px;
+  height: 150px;
+}
+img {
+	max-width: 200px;
+}
+
+/* rows in massive form */
+
+.massive_form {
+	width:100%;
+	border:none;
+	
+}
+.form_row {
+	padding-top:2px;
+}
+
+.form_row_section_pos {
+	width:5%;
+	min-width:20px;
+	float:left;
+	text-align:right;
+	padding-right:5px;
+	
+}
+
+.form_row_section_name {
+	width:30%;
+	min-width:200px;
+	float:left;
+	
+}
+
+.form_row_section_path {
+
+	
+}
+
+.form_row_section_name:nth-of-type(even) {
+	background:#f8f8f8;
+}
+
+.form_submit_buton_right {
+	float:left;
+}
+
+ /* Container holding the image and the text */
+.insideImageText {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 

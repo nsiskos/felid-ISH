@@ -1,0 +1,295 @@
+body {
+	padding:0; 
+	margin:0; 
+	background-color:#fff; 
+	font-family:Courier New,Courier,monospace;
+	font-size:0.8em;
+	text-align:center;
+}
+
+div.container {
+	max-width:80%; 
+	min-width:640px; 
+	padding:0; 
+	margin: 10px auto 10px auto;  
+	background-color:#fff;
+/*	border:1px solid #ccc;*/
+}
+
+
+
+div.facultyid {
+	padding:30px 0px 30px 0px; 
+	margin:0; 
+	letter-spacing:0.5em; 
+	line-height:1em;
+}
+
+.facultyid h2 {
+	font-family: georgia, serif; 
+	font-size: 1.8em; 
+	font-weight:normal; 
+	color:#666; 
+	padding:0px 0px 10px 0px; 
+	margin:0;
+}
+
+.facultyid p {
+	font-family: georgia, serif; 
+	font-size: 0.8em; 
+	font-weight:normal; 
+	color:#666; 
+	padding:0px 0px 10px 0px;
+	margin:0;
+}
+
+.facultyid a {
+	color:#666;
+	text-decoration: none;
+}
+
+div.bind {clear:both;}
+
+.menu {
+	font-family:verdana, sans-serif; 
+	font-size:1em; 
+	letter-spacing:-0.05em; 
+	padding: 7px 1px 7px 1px; 
+	margin: 5px auto 0px auto;
+	background-color:#fff; 
+	border:1px solid #ccc;
+	width:75%;
+}
+
+.menu ul { text-align:center; padding:0; margin:0; color:#666;}
+.menu li { display:inline; padding:0; margin:0;}
+.menu a {padding:0px 0px 2px 0px; color:#000; text-decoration:none;}
+.menu a:hover {padding:0px 0px 2px 0px; color:#006699;}
+
+div.kleinesmenu {
+	font-family:verdana, sans-serif; 
+	font-size:0.8em; 
+	letter-spacing:-0.05em; 
+	padding: 7px 1px 7px 1px; 
+	margin: 5px auto 0px auto;
+	background-color:#f0f0f0; 
+	border:1px solid #f0f0f0;
+	width:75%;
+}
+
+.kleinesmenu ul { text-align:center; padding:0; margin:0; color:#666;}
+.kleinesmenu li { display:inline; padding:0; margin:0; }
+.kleinesmenu a {padding:0px 0px 2px 0px; color:#000; text-decoration:none;}
+.kleinesmenu a:hover {padding:0px 0px 2px 0px; color:#006699;}
+
+.loginData {
+	
+	font-family:verdana, sans-serif; 
+	font-size:1em; 
+	letter-spacing:-0.05em; 
+	padding: 7px 1px 7px 1px; 
+	margin: 5px auto 0px auto;
+	background-color:#ffffff; 
+/*	border-right:1px solid red;*/
+	width:75%;
+	text-align: right;
+}
+
+.loginData a {padding:0px 0px 2px 0px; color:#000; border:1px dotted black;}
+.loginData a:hover {padding:0px 0px 2px 0px; background-color:#006699; color:#ffffff;}
+
+
+div.text {
+	width: 70%;
+	border: 0;
+	margin:30px auto 0px auto;
+	font-family:Courier New,Courier,monospace;
+/*	font-family:arial, sans-serif;*/
+	line-height:1.1em;
+	text-align:left;
+}
+
+.text h1 {font-family:arial, sans-serif; font-size:1.6em; font-weight:normal; color: #000; background-color:#fff; padding:0px 0px 3px 0px; margin:0px 0px 5px 0px;  letter-spacing:-0.03em;}
+.text h2 {font-family:verdana, sans-serif; font-size:1.1em; font-weight:normal; color: #006699; background-color:#fff; border-bottom: 1px dotted #ccc; padding:0px 0px 3px 0px; margin:20px 0px 0px 0px; letter-spacing:-0.05em;}
+
+.text h3 {
+	text-align: center;
+	font-family: verdana, sans-serif; 
+	font-size: 1.022em; 
+	font-weight:normal; 
+	color:#666; 
+	padding:10px 0px 0px 0px; 
+	margin:0;
+	letter-spacing:0.1em; 
+	line-height:1.1em;
+}
+
+.text h4 {
+	text-align: left;
+	font-family: verdana, sans-serif; 
+	font-size: 1.000em; 
+	font-weight:normal; 
+	color:#666; 
+	padding:5px 0px 0px 0px; 
+	margin:0;
+	letter-spacing:0.1em; 
+	line-height:1.1em;
+}
+
+.text p {text-align:left; padding:10px 0px 10px 0px; margin:5px auto 5px auto; }
+
+.text p.bordered {text-align:left; padding:5px 0px 5px 0px; margin:5px auto 5px auto; border-top: 1px solid #ccc;}
+
+
+a:link {
+	text-decoration:none; 
+	color:#000;
+}
+a:hover {
+	padding:0px 0px 2px 0px; 
+	color:#006699;
+}
+a:visited {
+	text-decoration:none; 
+	color:#000;
+}
+
+div.text a:link {
+	text-decoration:underline;
+/*	background-color: rgba(0,196,204,.1);*/
+}
+
+div.text a:hover {
+	background-color: #ffffff;
+}
+
+.go_to_top {
+	position:fixed;
+	bottom:10px;
+	right:20px;
+	width:auto;
+	height:40px;
+	border:none;
+/*	border:1px solid #f1f1f1; */
+	opacity:0.8;
+/*	background-image: url('icons/goTop.png');
+	background-repeat:no-repeat; */
+}
+
+a.goToTop {
+	height:80px;
+	border:1px solid black;
+}
+
+div.footer {width:50%; text-align:center; padding:0px 0px 10px 0px; margin:30px auto 0px auto; border-top: 1px solid #ccc; }
+.footer p {font-size:0.9em; color:#666; margin: 10px; line-height:1.2em;}
+.footer a {color:#666;}
+.footer a:hover {color:#999;}
+
+
+
+
+/************** section for ajax response on restricted users *****************/
+
+div.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Sit on top of the page content */
+	z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+	padding-top:100px;
+	width: 100%; /* Full width (cover the whole page) */
+	height: 100%; /* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+/*	background-color:rgba(255, 99, 71, 0.1); */
+	background-color: rgba(0,0,0,0.4);  /* Black background with opacity */
+	
+/*	cursor: pointer;  Add a pointer on hover */
+	overflow:auto;
+}
+
+div.modalContent {
+
+	position: relative;
+	  background-color: #fefefe;
+	  margin: auto;
+	  padding: 0;
+	  border: 1px solid #888;
+	  width: 90%;
+	  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	
+	/*
+	background-color: #fefefe;
+	  margin: auto;
+	  padding: 20px;
+	  border: 1px solid #888;
+	  width: 80%;
+	 */ 
+	  
+/*	height:100%;
+	overflow-y:scroll;
+	*/
+}
+
+.modalInner {
+	width:100%;
+	overflow:hidden;
+
+}
+
+
+
+.modalHeader {
+  padding: 10px 16px;
+  background-color: #fff;
+  color: white;
+}
+
+.closeBtn {
+	color:#000;
+	float:left;
+	cursor:pointer;
+	font-size:2.5em;
+	font-weight:bold;
+}
+
+.modalFooter {
+  padding: 2px 16px;
+  background-color: #fff;
+  color: white;
+}
+
+
+/*
+div#sectionSlides {
+	background-color:rgba(255, 99, 71, 0.2);
+}
+*/
+
+table.slideSections {
+  border-collapse: separate;
+  border-spacing: 2px;
+/*  border-top: 1px solid black;*/
+}
+
+table.slideSections td, th {
+  margin: 0;
+/*  border: 1px solid grey;*/
+  border: 0;
+  white-space: nowrap;
+  border-top-width: 0px;
+}
+
+img.slideSections {
+	max-width: 200px;
+}
+
+.gb_af svg {
+	color:#5f6368;
+	opacity:1;
+}
+
+.serialButton {
+	fill:#ff0000;
+}

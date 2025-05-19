@@ -1,0 +1,198 @@
+.information_panel_top {margin:10px auto 10px auto;}
+
+/******************** general info attributes ********************/
+
+table.general_info {
+	width:100%;
+	border-collapse:collapse;
+	font-family: verdana, sans-serif;
+}
+
+table.general_info tr {
+	border-bottom: none;
+}
+
+table.general_info tr:nth-child(odd) {background-color: #f2f2f2;}
+
+th.general_info_heads {
+	width:15%;
+	height:1em;
+	vertical-align:top;
+	font-style:oblique;
+	font-weight:normal;
+	border:none;
+}
+
+td.general_info_data {
+	vertical-align:top;
+	height:1em;
+	border:none;
+	padding:0px;
+}
+
+div.slideTable {
+	padding-bottom:10px;
+}
+
+/******************** slidetable attributes ********************/
+table.slidetable {
+/*	width: 450px; original!!! */
+	width: 700px;
+	margin: auto;
+	font-family:tahoma, sans-serif; 
+	font-size:0.8em;
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	text-align: center;
+	vertical-align: center;
+
+}
+
+table.slidetable tr, td, th {
+	width: 40px;
+	height: 40px;
+	border: 1px solid #bbb;
+}
+
+table.slidetable td.fail {font-weight:normal; background-color: #e0e0e0;}
+
+table.slidetable th {
+	text-decoration: none;
+}
+
+.narrowth {
+	width: 20px;
+	font-size:0.8em;
+}
+
+/******************** post-slide info ********************/
+
+.post_slide_info {
+	width: 100%;
+	overflow: hidden;
+	border-top: 1px solid #ddd;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.quad_first {
+	width: 40%;
+	float: left;
+	border: none;
+}
+
+.quad_second {
+	width: 40%;
+	float: left;
+	border-left:1px dotted #dfdfdf;
+	padding-left:5px;
+/*	border: none; */
+	display:inline;
+}
+
+.quad_third {
+	width: 10%;
+	float: left;
+	border: none;
+	display:inline;
+}
+
+.quad_fourth {
+	border: none;
+	overflow: hidden;
+	text-align:left;
+	padding-left: 5px;
+}
+
+ul.siblings {
+	list-style-type:circle;
+}
+
+/******************** image gallery! ********************/
+
+.row {
+	width:70%;
+	margin:30px auto 0px auto;
+}
+
+ /* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 180px;
+/*  min-width:200px; */
+  margin-right:10px;
+  margin-bottom:5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+div#graphContainer {
+	margin-top:20px;
+	background-color:rgba(255, 99, 71, 0.05);
+}
+
+.bubble {
+	stroke:gray;
+	fill:none;
+	opacity:0.5;
+	stroke-width:2;
+}
+
+.bubble_green {
+	stroke:green;
+	fill:green;
+	opacity:0.8;
+	stroke-width:2;
+}
+
+/************** section for ajax response on restricted users *****************/
+/*
+table.slideSections {
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-top: 1px solid black;
+}
+
+table.slideSections td, th {
+  margin: 0;
+  border: 0;
+  white-space: nowrap;
+  border-top-width: 0px;
+}
+
+img.slideSections {
+	max-width: 200px;
+}
+
+.gb_af svg {
+	color:#5f6368;
+	opacity:1;
+}
+
+.serialButton {
+	fill:#ff0000;
+}
+*/

@@ -1,0 +1,40 @@
+a.inhead {
+	font-size: 0.65em;
+	color:#666666; 
+	text-decoration:none;
+}
+a.inhead:hover {color:#006699;}
+
+.embryo img {
+    float:right;
+    padding-left:2px;
+}
+/*table#madre tr:nth-child(odd) {background-color: #f2f2f2;}*/
+img {
+	max-width: 400px;
+}
+
+div#sectionSlides {
+	width:100%;
+	text-align:center;
+}
+
+table#slideSections {
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+}
+
+#slideSections td, th {
+  margin: 0;
+  border: 0;
+  white-space: nowrap;
+  border-top-width: 0px;
+}
+
+
+
+img#slideSections {
+	max-width: 200px;
+}

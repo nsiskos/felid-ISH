@@ -1,0 +1,39 @@
+div#date_selector {
+	width: 100%;
+	overflow: hidden;
+	border: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+}
+
+div#date_selector_small {
+/*	min-width:640px; */
+	width: 30%; 
+	min-width:240px;
+	overflow: hidden;
+	border: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+}
+
+div#select_year {
+	width: 33%;
+	float: left;
+	border: none;
+}
+
+div#select_month {
+	width: 33%;
+	float: left;
+	border: none;
+	display: inline;
+}
+
+div#select_day {
+	border: none;
+	overflow: hidden;
+	text-align:left;
+	padding-left: 10px;
+}

@@ -1,0 +1,78 @@
+div.slideTableInside {
+	border:none;
+	padding-bottom:5px;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+
+div.slideTableInsideHead {
+	border:none;
+	padding-bottom:5px;
+	margin-left:33%;
+	margin-bottom:5px;
+	width:30%;
+	text-align:center;
+}
+
+div.slideTableInsideHead:hover {
+	background-color:#b9c5df;
+	color:#ffffff;
+}
+
+h3.slideTableHead {
+	font-size:1.022em;
+}
+
+/******************** slidetable attributes ********************/
+table.slidetable {
+/*	width: 450px; original!!! */
+	width: 700px;
+	margin: auto;
+	font-family:tahoma, sans-serif; 
+	font-size:0.8em;
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	text-align: center;
+	vertical-align: center;
+
+}
+
+table.slidetable tr, td, th {
+	width: 40px;
+	height: 40px;
+	border: 1px solid #bbb;
+}
+
+table.slidetable td.fail {font-weight:normal; background-color: #e0e0e0;}
+
+table.slidetable th {
+	text-decoration: none;
+}
+
+.narrowth {
+	width: 20px;
+	font-size:0.8em;
+}
+
+
+div#basket {
+	width:30%;
+	min-width:180px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0px;
+  left: 300px;
+  width: auto;
+  background-color:#ffffff;
+  border: 1px dotted black;
+  opacity: 0.6;
+  
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
